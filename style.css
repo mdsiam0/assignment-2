@@ -1,11 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
 .flex {
     display: flex;
 }
+
 
 /* nav style start */
 
@@ -13,10 +26,77 @@ nav {
     max-width: 1160px;
     margin: 0 auto;
     justify-content: space-between;
-    background-color: beige;
     align-items: center;
+    min-height: 100px;
+}
+.bar {
+    display: none;
 }
 
 .nav-logo {
     align-items: center;
+    
+    gap: 10px;
 }
+
+.nav-logo h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.nav-link {
+    gap: 32px;
+    
+}
+.nav-link a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.nav-link .home-link {
+    font-weight: 700;
+}
+
+.home-link {
+    color: orange;
+}
+.about-link {
+    color: skyblue;
+}
+.facilities-link {
+    color: #05D4DF;
+}
+.admissin-link {
+    color: #5D58EF;
+}
+.nav-btn button{
+    border: none;
+    background-color: orange;
+    padding: 15px 40px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 12px;
+}
+
+@media screen and (max-width: 576px) {
+    .hide {
+        display: none;
+    }
+
+    .bar {
+        display: block;
+        
+    }
+    .nav-logo img {
+        width: 46px;
+    }
+    
+    nav {
+        margin: 12px 16px;
+        min-height: 70px;
+    }
+    header {
+        border: 1px solid orange;
+    }
+}
+
