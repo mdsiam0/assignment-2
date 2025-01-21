@@ -6,3 +6,17 @@
 .flex {
     display: flex;
 }
+
+/* nav style start */
+
+nav {
+    max-width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: beige;
+    align-items: center;
+}
+
+.nav-logo {
+    align-items: center;
+}
