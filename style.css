@@ -201,23 +201,33 @@ nav {
 .curriculum-btn button {
     border: none;
     background-color: #F0AA00;
-    padding: 15px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     margin-left: 5px;
     margin-right: 5px;
+    margin-bottom: 60px;
 }
 .curriculum-btn button:hover {
     background-color: #64C8FF;
 }
 
-/* storry section start */
+/* story section start */
 
 .story-section {
-    background-image: url(./assets/bg.png), linear-gradient(0deg, rgba(254,163,1,30%), rgba(255,255,255,30%) 100%);;
+    background-image: url(./assets/bg.png), linear-gradient(0deg, rgba(254,163,1,30%), rgba(255,255,255,30%) 100%);
+    text-align: center;
  
+}
+.story-section-container h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    
 }
 .cards-container {
     justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 .group-card-container {
     display: grid;
@@ -229,34 +239,152 @@ nav {
     max-width: 540px;
     background-color: #ffffff;
     border-radius: 16px;
+    
+}
+.date-content-style {
+    font-size: 1rem;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 40px;
+    top: -1.5rem;
+    left: 1rem
+    
+}
+.single-card-content {
+    position: relative;
+}
+
+.single-card-date {
+    position: absolute;
+   font-size: 1rem;
+    color: #ffffff;
+    background-color: #3CD8E8;
+    padding: 10px 20px;
+    border-radius: 40px;
+    top: -1.5rem;
+    left: 1rem;
+}
+
+.group-card-content {
+    position: relative;
+}
+.card-style {
+    position: absolute;
+   font-size: 1rem;
+    color: #ffffff;
+   padding: 10px 20px;
+    border-radius: 40px;
+    top: -1.5rem;
+    left: 1rem;
+
+}
+.date-two {
+    background-color: #95B226;
+}
+.date-three {
+    background-color: #5D58F0;
+}
+.date-four {
+    background-color: #95B226;
+}
+.date-five {
+    background-color: #95B226;
 }
 
 .single-card h3 {
     font-size: 1.5rem;
     padding: 60px 40px 50px 40px;
+    text-align: left;
     
 }
 .single-card p {
     font-family: "Raleway", serif;
     color: #666666;
     padding: 0 40px 40px 40px;
+    text-align: left;
 
 }
 .group-cards {
     max-width: 290px;
     background-color: #ffffff;
     border-radius: 16px;
+    
 }
+
+
 .group-cards h3 {
     font-weight: 700;
     font-size: 1rem;
     padding: 35px;
+    text-align: left;
 }
 .single-card img, .group-cards img {
     width: 100%;
     border-radius: 16px 16px 0 0;
 }
+.story-section-container button {
+    padding: 15px 50px;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 12px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
 
+
+/* footer section start */
+
+footer {
+    background-color: #01ACFD;
+    width: 100%;
+}
+.footer-content, .footer-link, .footer-about {
+    max-width: 33%;
+} 
+.footer-container {
+     justify-content: space-between;
+     padding: 7rem 0;
+     
+}
+.footer-logo {
+    align-items: center;
+    gap: 10px;
+}
+.footer-logo h2 {
+    font-size: 2.6rem;
+    line-height: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    
+}
+.footer-content p {
+    font-size: 1.25rem;
+    color: #fff;
+    margin-top: 35px;
+}
+.footer-about h4 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+.footer-about a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 1.25rem;
+}
+.social-link h4 {
+    font-size: 1.6rem;
+    color: #ffffff;
+    margin-bottom: 32px;
+}
+.marquee-div {
+    color: #ffffff;
+}
 @media screen and (max-width: 576px) {
     .m-container {
         max-width: 90%;
@@ -316,5 +444,23 @@ nav {
     .curriculum-btn button {
         display: none;
     }
-}
 
+    /* story section start */
+
+    .single-card {
+        display: none;
+    }
+    .group-card-container {
+        gap: 10px;
+    }
+    /* footer section start */
+    .footer-container {
+        flex-direction: column;
+    }
+    .footer-content, .footer-link, .footer-about {
+        max-width: 100%;
+    } 
+    .footer-about {
+        margin: 32px 0;
+    }
+}
