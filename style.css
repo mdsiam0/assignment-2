@@ -25,7 +25,9 @@
     max-width: 1160px;
     margin: 0 auto;
 }
-
+.pointer {
+    cursor: pointer;
+}
 /* nav style start */
 
 nav {
@@ -143,6 +145,7 @@ nav {
     padding: 60px 40px;
     text-align: center;
     border-radius: 20px;
+   
     
     
 }
@@ -444,12 +447,43 @@ marquee {
     .curriculam-card-container {
         flex-direction: column;
     }
+    .curriculum-card  {
+        padding: 40px 40;
+    }
     .curriculum-btn button {
         display: none;
+    }
+    .curriculum-container {
+        padding-top: 40px;
+    }
+    .curriculum-card img, .curriculum-card h4, .curriculum-card p {
+        margin-bottom: 20px;
+    }
+    .curriculam-card-container {
+        margin-top: 30px;
+        margin-bottom: 60px;
+        gap: 20px;
+    }
+    .curriculum-container h2 {
+        font-size: 1.8rem;
+    } 
+    .curriculum-card h4 {
+        font-size: 1.2rem;
     }
 
     /* story section start */
 
+    .cards-container {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .story-section-container button {
+        padding: 12px 24px;
+        background-color: black;
+        color: #ffffff;
+        border-radius: 10px;
+        font-size: 1rem;
+    }
    
     .group-card-container {
         gap: 10px;
@@ -458,6 +492,9 @@ marquee {
     .group-cards h3 {
         font-size: 0.7rem;
         padding: 20px;
+    }
+    .story-section-container h2 {
+        font-size: 1.8rem;
     }
     .card-style {
         font-size: 0.7rem;
@@ -475,5 +512,11 @@ marquee {
     } 
     .footer-about {
         margin: 32px 0;
+    }
+    .footer-logo h2 {
+        font-size: 2.25rem;
+    }
+    .footer-content p {
+        font-size: 1rem;
     }
 }
