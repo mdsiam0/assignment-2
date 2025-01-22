@@ -210,6 +210,53 @@ nav {
     background-color: #64C8FF;
 }
 
+/* storry section start */
+
+.story-section {
+    background-image: url(./assets/bg.png), linear-gradient(0deg, rgba(254,163,1,30%), rgba(255,255,255,30%) 100%);;
+ 
+}
+.cards-container {
+    justify-content: space-between;
+}
+.group-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px
+}
+
+.single-card {
+    max-width: 540px;
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+
+.single-card h3 {
+    font-size: 1.5rem;
+    padding: 60px 40px 50px 40px;
+    
+}
+.single-card p {
+    font-family: "Raleway", serif;
+    color: #666666;
+    padding: 0 40px 40px 40px;
+
+}
+.group-cards {
+    max-width: 290px;
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+.group-cards h3 {
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 35px;
+}
+.single-card img, .group-cards img {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
 @media screen and (max-width: 576px) {
     .m-container {
         max-width: 90%;
