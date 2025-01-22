@@ -382,8 +382,8 @@ footer {
     color: #ffffff;
     margin-bottom: 32px;
 }
-.marquee-div {
-    color: aqua;
+.marquee-div marquee {
+    color: azure;
     font-size: 1.5rem;
     padding: 20px 0;
 }
