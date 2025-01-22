@@ -447,12 +447,20 @@ footer {
 
     /* story section start */
 
-    .single-card {
-        display: none;
-    }
+   
     .group-card-container {
         gap: 10px;
     }
+
+    .group-cards h3 {
+        font-size: 0.7rem;
+        padding: 20px;
+    }
+    .card-style {
+        font-size: 0.7rem;
+        padding: 8px 16px;
+    }
+
     /* footer section start */
     .footer-container {
         flex-direction: column;
