@@ -173,13 +173,13 @@ nav {
 .second-card {
     background: linear-gradient(180deg, rgba(255,244,220,1), rgba(255,255,255,1) 40%);
     border: 1px solid #FFF4DC;
-    box-shadow: 0 0 28px 1px rgb(0, 0, 0, 5%) inset; 
+    box-shadow: 0 0 28px 2px rgb(0, 0, 0, 5%) inset; 
 
 }
 .third-card {
     background: linear-gradient(180deg, rgba(238,225,255,1), rgba(255,255,255,1) 40%);
     border: 1px solid #F2E8FF;
-    box-shadow: 0 0 28px 1px rgb(0, 0, 0, 5%) inset; 
+    box-shadow: 0 0 28px 2px rgb(0, 0, 0, 5%) inset; 
 
 }
 
