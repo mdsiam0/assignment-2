@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -124,9 +125,94 @@ nav {
     width: 100%;
 }
 
+/* curriculum section start */
+
+.curriculum-section {
+    background-image: url(./assets/bg.png);
+    
+}
+.curriculum-container {
+    padding-top: 60px;
+    text-align: center;
+}
+.curriculum-container h2{
+   font-size: 2.8rem;
+    
+}
+.curriculum-card {
+    padding: 60px 40px;
+    text-align: center;
+    border-radius: 20px;
+    
+    
+}
+
+.first-card {
+    background: linear-gradient(180deg, rgba(222,245,255,1), rgba(255,255,255,0) 40%);
+    border: 1px solid #DEF5FF;
+    box-shadow: 0 0 28px 1px rgb(0, 0, 0, 5%) inset; 
+}
+.first-card a {
+    text-decoration: none;
+    color: #64C8FF;
+    font-weight: 700;
+}
+.second-card a {
+    text-decoration: none;
+    color: #F0AA00;
+    font-weight: 700;
+}
+.third-card a {
+    text-decoration: none;
+    color: #8700FF;
+    font-weight: 700;
+}
+.second-card {
+    background: linear-gradient(180deg, rgba(255,244,220,1), rgba(255,255,255,0) 40%);
+    border: 1px solid #FFF4DC;
+    box-shadow: 0 0 28px 1px rgb(0, 0, 0, 5%) inset; 
+
+}
+.third-card {
+    background: linear-gradient(180deg, rgba(238,225,255,1), rgba(255,255,255,0) 40%);
+    border: 1px solid #F2E8FF;
+    box-shadow: 0 0 28px 1px rgb(0, 0, 0, 5%) inset; 
+
+}
+
+.curriculum-card img {
+    margin-bottom: 30px;
+}
+.curriculum-card h4{
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.curriculum-card p{
+    margin-bottom: 30px;
+    color: #808080;
+    font-family: "Raleway", serif;
+    font-size: 15px;
+}
+.curriculam-card-container {
+    gap: 30px;
+    margin: 80px 0;
+}
+.curriculum-btn button {
+    border: none;
+    background-color: #F0AA00;
+    padding: 15px;
+    border-radius: 50%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.curriculum-btn button:hover {
+    background-color: #64C8FF;
+}
+
 @media screen and (max-width: 576px) {
     .m-container {
-        padding: 0 16px;
+        max-width: 90%;
 
     }
     /* nav style start */
@@ -174,6 +260,14 @@ nav {
         margin-top: 28px;
         margin-bottom: 20px;
     }
+
+    /* curriculum section start */
     
+    .curriculam-card-container {
+        flex-direction: column;
+    }
+    .curriculum-btn button {
+        display: none;
+    }
 }
 
